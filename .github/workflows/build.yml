@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    if: github.repository == 'szwnba/markdown'
+    if: github.repository == 'szwnba/md'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
